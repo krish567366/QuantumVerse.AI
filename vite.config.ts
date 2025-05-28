@@ -4,6 +4,7 @@ import glsl from 'vite-plugin-glsl';
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base: '/QuantumVerse.AI/',
   plugins: [react(), glsl()],
   optimizeDeps: {
     exclude: ['lucide-react'],
